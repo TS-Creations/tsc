@@ -1,6 +1,9 @@
 //nav include
 $(function () {
-    $("#includeHtml").load("nav.html");
+    $("#includenav").load("nav.html");
 });
 
 //
+$(function () {
+    $("#includecoresal").load("coresal.html");
+});
