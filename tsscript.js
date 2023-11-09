@@ -4,6 +4,3 @@ $(function () {
 });
 
 //
-$(function () {
-    $("#includecoresal").load("coresal.html");
-});
