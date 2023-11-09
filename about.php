@@ -6,7 +6,6 @@
     <title>TSC | About</title>
 </head>
 <body>
-    <a href="nav.html">s</a>
     <object type="text/html" data="nav.html"></object>
 </body>
 </html>
