@@ -7,3 +7,8 @@ $(function () {
 $(function () {
   $("#includenavsub").load("sub/nav.html");
 });
+
+//nav include head
+$(function () {
+  $("#includehead").load("sub/head.html");
+});
