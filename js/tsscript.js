@@ -1,9 +1,9 @@
 //nav include
 $(function () {
-    $("#includenav").load("nav.html");
+  $("#includenav").load("nav.html");
 });
 
 //nav include sub
-//$(function () {
-  //  $("#includenavsub").load("../sub/nav.html");
-//});
+$(function () {
+  $("#includenavsub").load("../sub/nav.html");
+});
