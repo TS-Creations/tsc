@@ -8,12 +8,12 @@ $(function () {
   $("#includenavsub").load("sub/nav.html");
 });
 
-//nav include head
+//include head
 $(function () {
-  $("#includehead").load("sub/head.html");
+  $("#includeheadsub").load("sub/head.html");
 });
 
-//nav include foot
+//include foot
 $(function () {
-  $("#includefoot").load("sub/foot.html");
+  $("#includefootsub").load("sub/foot.html");
 });
