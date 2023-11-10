@@ -5,5 +5,5 @@ $(function () {
 
 //nav include sub
 $(function () {
-  $("#includenavsub").load("../sub/nav.html");
+  $("#includenavsub").load("sub/nav.html");
 });
