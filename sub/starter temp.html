@@ -1,30 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="../js/tsscript.js"></script>
 
-    <div id="includehead"></div>
-    <title>Hello, world!</title>
-  </head>
+<head>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="../js/tsscript.js"></script>
 
-  <body>
-    <div id="includenav"></div>
-    <div><h1>Hello, world!</h1></div>
+  <div id="includehead"></div>
+  <title>Hello, world!</title>
+</head>
 
-    <div class="collapse" id="navbarToggleExternalContent">
-      <div class="bg-dark p-4">
-        <h5 class="text-white h4">Collapsed content</h5>
-        <span class="text-muted">Toggleable via the navbar brand.</span>
-      </div>
+<body>
+  <div id="includenav"></div>
+  <div>
+    <h1>Hello, world!</h1>
+  </div>
+
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <h5 class="text-white h4">Collapsed content</h5>
+      <span class="text-muted">Toggleable via the navbar brand.</span>
     </div>
-    <nav class="navbar navbar-dark bg-dark">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-    </nav>
-    <div id="includefoot"></div>
-  </body>
+  </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!--
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script>
+         $(document).ready(function(){
+            $('#header').load("header.html");
+            $('#footer').load("footer.html");
+         });
+      </script>
+  -->
+
+  <div id="includefoot"></div>
+</body>
+
 </html>
