@@ -12,3 +12,8 @@ $(function () {
 $(function () {
   $("#includehead").load("sub/head.html");
 });
+
+//nav include foot
+$(function () {
+  $("#includefoot").load("sub/foot.html");
+});
