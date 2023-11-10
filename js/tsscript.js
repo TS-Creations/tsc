@@ -1,11 +1,8 @@
-//nav include
-$(function () {
-  $("#includenav").load("nav.html");
-});
-
+//include
 $(document).ready(function(){
-  $('#head').load("head.html");
-  $('#foot').load("foot.html");
+  $('#includehead').load("head.html");
+  $('#includenav').load("nav.html");
+  $('#includefoot').load("foot.html");
 });
 
 //nav include sub
