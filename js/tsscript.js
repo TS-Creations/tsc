@@ -1,5 +1,5 @@
 //include
-$(document).ready(function(){
+$(document).ready(function () {
   $('#includehead').load("head.html");
   $('#includenav').load("nav.html");
   $('#includefoot').load("foot.html");
